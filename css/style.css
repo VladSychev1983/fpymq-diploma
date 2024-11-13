@@ -9,7 +9,7 @@ ul {
 }
 
 body {
-    max-width: 1660px;
+    max-width: 1920px;
     margin: auto;
     color: #fff;
     font-family: "OpenSans", sans-serif;
@@ -54,4 +54,3 @@ h1 {
     top: 50px;
     position: absolute;
 }
-
