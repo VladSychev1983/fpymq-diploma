@@ -25,3 +25,10 @@
 .menu_list__item {
     text-transform: uppercase;
 }
+a {
+    color: #fff;
+    text-decoration: none;
+}
+.menu_list__item:hover {
+    text-decoration: underline;
+}
