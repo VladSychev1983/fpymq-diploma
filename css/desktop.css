@@ -1,0 +1,27 @@
+.header {
+    background-image: url('../images/banner-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+
+.burger-menu {
+    display: none;
+}
+
+.menu_box {
+    width: 100%;
+    position: absolute;
+    font-size: 0.8em;
+    right: 88px; 
+    top: 57px;    
+}
+
+.menu_list {
+    display: flex;
+    justify-content: right;
+    gap: 35px;
+}
+
+.menu_list__item {
+    text-transform: uppercase;
+}

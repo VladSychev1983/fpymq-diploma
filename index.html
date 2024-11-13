@@ -3,9 +3,100 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <!-- mobiles -->
+    <link rel="stylesheet" href="css/mobile.css" media="(max-width: 640px)">
+     <!-- tablets -->
+    <link rel="stylesheet" href="css/tablets.css" media="(min-width: 641px) and (max-width: 1200px)">
+       <!-- desktops -->
+    <link rel="stylesheet" href="css/desktop.css" media="(min-width: 1201px)">
+    <!-- default -->
+     <link rel="stylesheet" href="css/style.css">
+
+    <title>Итоговый проект HTML/CSS</title>
 </head>
 <body>
-    
+    <header class="header">
+        <img src="images/noemi-logo.svg" alt="Лого" class="logo">
+        <nav class="menu_box">
+         <ul class="menu_list">
+            <li class="menu_list__item">главная</li>
+            <li class="menu_list__item">посты</li>
+            <li class="menu_list__item">статьи</li>
+            <li class="menu_list__item">теги</li>
+            <li class="menu_list__item">темы</li>
+            <li class="menu_list__item">контакты</li>
+         </ul>
+        </nav> 
+            
+            <div class="burger-menu">
+                <div class="first_line"></div>
+                <div class="second_line"></div>
+                <div class="third_line"></div>
+            </div>
+        
+        <h1>БЛОГ О ТВОРЧИСТВЕ, СПОРТЕ, И ОБРАЗЕ ЖИЗНИ</h1>
+    </header>
+    <main>
+        <section class="trand_now"></section>
+        <section class="content">
+            <div class="articles_box"></div>
+            <ul class="articles_list">
+                <li class="articles_list__item"></li>
+                <li class="article_list__item"></li>
+                <li class="article_list__item"></li>
+                <li class="article_list__item"></li>
+                <li class="article_list__item"></li>
+            </ul>
+        </div>
+        <aside>
+           <div class="posts_box">
+            <ul class="posts_list">
+                <li class="posts_list__item"></li>
+                <li class="posts_list__item"></li>
+                <li class="posts_list__item"></li>
+                <li class="posts_list__item"></li>
+                <li class="posts_list__item"></li>
+                <li class="posts_list__item"></li>
+            </ul>    
+           </div> 
+           <div class="search_box">
+            <input type="search" class="search" placeholder="Найти...">
+            <button class="btn_search">ПОИСК</button>
+           </div>
+           <div class="mailing_box">
+            <input type="email" placeholder="Ваш email-адрес">
+            <button class="btn_sign">ПОДПИСАТЬСЯ</button>
+           </div>
+           <div class="tags_box">
+            <ul class="tags_list">
+                <li class="tags_list__item"></li>
+                <li class="tags_list__item"></li>
+                <li class="tags_list__item"></li>
+                <li class="tags_list__item"></li>
+                <li class="tags_list__item"></li>
+                <li class="tags_list__item"></li>
+                <li class="tags_list__item"></li>
+                <li class="tags_list__item"></li>
+            </ul>
+           </div>
+           <div class="topics">
+            <ul class="topics_list">
+                <li class="topics_list__item"></li>
+                <li class="topics_list__item"></li>
+                <li class="topics_list__item"></li>
+                <li class="topics_list__item"></li>
+                <li class="topics_list__item"></li>
+                <li class="topics_list__item"></li>
+            </ul>
+           </div>
+        </aside>
+        </section>
+        <section class="out_products"></section>
+        <footer class="footer">
+            <div class="social">
+            </div>
+            <div class="by"></div>
+        </footer>
+    </main>
 </body>
 </html>
