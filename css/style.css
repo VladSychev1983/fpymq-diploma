@@ -11,7 +11,7 @@ ul {
 body {
     max-width: 1920px;
     margin: auto;
-    color: #fff;
+    color: #0f0d0e;
     font-family: "OpenSans", sans-serif;
     font-style: normal;
     background-color: #fff;
@@ -43,6 +43,7 @@ h1 {
     margin-bottom: 125px;
     line-height: 1.7;
     font-weight: 700;
+    color:#fff;
     z-index: 2;
 }
 
@@ -54,3 +55,62 @@ h1 {
     top: 50px;
     position: absolute;
 }
+
+/* Trand */
+.trand_section {
+    position: relative;
+    text-align: center;
+    margin:  50px 0 50px 0;
+    left: 0;
+}
+
+.trand_title {
+    text-transform: uppercase;
+    font-size: 1.25em;
+    font-weight: bold;
+}
+
+.trand_title__line {
+    width: 70px;
+    border-top: 7px solid #e1d9bd;
+    /* opacity: 0.8; */
+    margin: 13px auto 17px auto;
+}
+
+.trand_list {
+    position: relative;
+}
+
+.trand_en {
+    color:#ab9656;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 16px;  
+}
+
+.trand_name {
+    display: flex;
+    box-sizing: border-box;
+    height: 348px;
+    width: 100%;
+    background-color: #0f0d0e;
+    text-transform: uppercase;
+    opacity: 0.8;
+    font-size: 20px;
+    line-height: 1.2;
+    font-weight: 700;
+    color: #fff;
+    text-align: left;
+    align-items: flex-end;
+}
+
+.trand_content {
+    border: 2px solid #ab9656;
+    padding: 10% 5% 10% 5%;
+   margin: 5% 5% 5% 5%;
+}
+
+.trand_topic {
+    margin-top:5px;
+}
+

@@ -23,12 +23,60 @@
 }
 
 .menu_list__item {
+    color:#fff;
     text-transform: uppercase;
 }
+
 a {
     color: #fff;
     text-decoration: none;
 }
+
 .menu_list__item:hover {
     text-decoration: underline;
+}
+
+.trand_list {
+    height: 348px;
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    padding-left: 0;
+}
+
+.trand_list__item1 {
+    width: 25%;
+    background: #000;
+    background-image: url('../images/trend1.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.trand_list__item2 {
+    width: 25%;
+    background: #000;
+    background-image: url('../images/trend2.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    z-index: -1;
+}
+
+.trand_list__item3 {
+    width: 25%;
+    background: #000;
+    background-image: url('../images/trend3.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.trand_list__item4 {
+    width: 25%;
+    background: #000;
+    background-image: url('../images/trend4.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
 }
