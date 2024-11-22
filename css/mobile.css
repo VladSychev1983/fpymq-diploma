@@ -26,15 +26,15 @@
 }
 
 .trand_list {
+    height: 320px;
     display: flex;
     flex-wrap: wrap;
-    gap:5px;
+    gap: 5px;
     padding-left: 0;
 }
 
 .trand_list__item1 {
     width: 100%;
-    height: 348px; 
     background: #000;
     background-image: url('../images/trend1.jpg');
     background-repeat: no-repeat;
@@ -44,7 +44,6 @@
 
 .trand_list__item2 {
     width: 100%;
-    height: 348px; 
     background: #000;
     background-image: url('../images/trend2.jpg');
     background-repeat: no-repeat;
@@ -54,7 +53,6 @@
 
 .trand_list__item3 {
     width: 100%;
-    height: 348px;
     background: #1f1b1b;
     background-image: url('../images/trend3.jpg');
     background-repeat: no-repeat;
@@ -64,7 +62,6 @@
 
 .trand_list__item4 {
     width: 100%;
-    height: 348px;
     background: #000;
     background-image: url('../images/trend4.jpg');
     background-repeat: no-repeat;

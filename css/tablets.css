@@ -25,40 +25,42 @@ background-size: cover;
 }
 
 .trand_list {
-    height: 497px; 
+    height: 320px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 5px;
-    padding: 0 0 0 0;
-    margin: 0 0 0 0; 
+    padding-left: 0px;
 }
 
 .trand_list__item1 {
-    width: calc(50% - 5px / 2);
+    width: calc(50% - 10px / 2);
     background: #000;
     background-image: url('../images/trend1.jpg');
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
+    position: relative;
 }
 
 .trand_list__item2 {
-    width: calc(50% - 5px / 2);
+    width: calc(50% - 10px / 2);
     background: #000;
     background-image: url('../images/trend2.jpg');
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
+    position: relative;
 }
 
 .trand_list__item3 {
     width: calc(50% - 5px / 2);
-    background: #1f1b1b;
+    background: #000;
     background-image: url('../images/trend3.jpg');
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
+    position: relative;
 }
 
 .trand_list__item4 {
@@ -68,4 +70,5 @@ background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
+    position: relative;
 }
